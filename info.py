@@ -20,7 +20,7 @@ BOT_TOKEN = environ.get('BOT_TOKEN', '7936495690:AAE4X4tiJDySJZl2VuQ3qy5SNjvSkua
 #---------------------------------------------------------------
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '6171207502').split()]
 USERNAME = environ.get('USERNAME', "https://t.me/lord_abhimanyu") # ADMIN USERNAME
-###LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002190681742'))
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002186564513'))
 MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/+GXx1HG8Itlg3NDI1')
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002331760386').split()]
 #---------------------------------------------------------------
@@ -31,7 +31,7 @@ CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHAN
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 #----------- There will be channel id add in all these ---------
-###LOG_API_CHANNEL = int(environ.get('LOG_API_CHANNEL', '0'))  
+LOG_API_CHANNEL = int(environ.get('LOG_API_CHANNEL', '0'))  
 ###BIN_CHANNEL = int(environ.get('BIN_CHANNEL','0'))
 ###DELETE_CHANNELS = int(environ.get('DELETE_CHANNELS','0'))
 ###LOG_VR_CHANNEL = int(environ.get('LOG_VR_CHANNEL', '0'))
